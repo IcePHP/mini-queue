@@ -1,0 +1,10 @@
+#!/usr/bin/env php
+<?php
+// bin/console
+// Adjust this path to your actual bootstrap.php
+use IcePHP\MiniQueue\MiniQueue;
+/**
+ * @var MiniQueue
+ */
+$miniQueue = require __DIR__ . '/queue.php';
+$miniQueue->console();

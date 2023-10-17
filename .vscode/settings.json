@@ -1,0 +1,9 @@
+{
+    "php.stubs": [
+        "*",
+        "posix"
+    ],
+    "cSpell.words": [
+        "icephp"
+    ]
+}
