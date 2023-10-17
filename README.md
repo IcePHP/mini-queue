@@ -5,6 +5,7 @@
 
 IcePHP/MiniQueue is a lightweight PHP library for managing job queues and processing tasks asynchronously. This library provides a simple and efficient way to handle tasks in the background, allowing your application to perform time-consuming operations without blocking the main execution flow.
 
+composer require icephp/mini-queue
 ## Files
 
 ### `queue.php`
