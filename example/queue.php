@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__."/../mini-queue.php";
+require_once __DIR__."/../vendor/autoload.php";
 use IcePHP\MiniQueue\MiniQueue;
 $miniQueue = new MiniQueue([
     'driver' => 'pdo_sqlite',

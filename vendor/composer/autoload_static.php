@@ -42,6 +42,10 @@ class ComposerStaticInitd2032983710b80d3e4fee72a5132263a
             'Psr\\Container\\' => 14,
             'Psr\\Cache\\' => 10,
         ),
+        'I' => 
+        array (
+            'IcePHP\\MiniQueue\\' => 17,
+        ),
         'D' => 
         array (
             'Doctrine\\Persistence\\' => 21,
@@ -126,6 +130,10 @@ class ComposerStaticInitd2032983710b80d3e4fee72a5132263a
         array (
             0 => __DIR__ . '/..' . '/psr/cache/src',
         ),
+        'IcePHP\\MiniQueue\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/lib',
+        ),
         'Doctrine\\Persistence\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/persistence/src/Persistence',
@@ -164,13 +172,9 @@ class ComposerStaticInitd2032983710b80d3e4fee72a5132263a
         ),
         'Doctrine\\Common\\' => 
         array (
-            0 => __DIR__ . '/..' . '/doctrine/event-manager/src',
-            1 => __DIR__ . '/..' . '/doctrine/common/src',
+            0 => __DIR__ . '/..' . '/doctrine/common/src',
+            1 => __DIR__ . '/..' . '/doctrine/event-manager/src',
         ),
-    );
-
-    public static $fallbackDirsPsr0 = array (
-        0 => __DIR__ . '/../..' . '/src',
     );
 
     public static $classMap = array (
@@ -189,7 +193,6 @@ class ComposerStaticInitd2032983710b80d3e4fee72a5132263a
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInitd2032983710b80d3e4fee72a5132263a::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInitd2032983710b80d3e4fee72a5132263a::$prefixDirsPsr4;
-            $loader->fallbackDirsPsr0 = ComposerStaticInitd2032983710b80d3e4fee72a5132263a::$fallbackDirsPsr0;
             $loader->classMap = ComposerStaticInitd2032983710b80d3e4fee72a5132263a::$classMap;
 
         }, null, ClassLoader::class);

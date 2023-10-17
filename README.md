@@ -11,7 +11,7 @@ IcePHP/MiniQueue is a lightweight PHP library for managing job queues and proces
 
 ```php
 <?php
-require_once __DIR__."/../mini-queue.php";
+require_once __DIR__."/vendor/autoload.php";
 use IcePHP\MiniQueue\MiniQueue;
 $miniQueue = new MiniQueue([
     'driver' => 'pdo_sqlite',

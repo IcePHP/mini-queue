@@ -1,5 +1,20 @@
-{"name": "icephp/mini-queue",
-"description": "IcePHP/MiniQueue is a lightweight PHP library for managing job queues and processing tasks asynchronously. This library provides a simple and efficient way to handle tasks in the background, allowing your application to perform time-consuming operations without blocking the main execution flow",
+{
+    "name": "icephp/mini-queue",
+    "description": "IcePHP/MiniQueue is a lightweight PHP library for managing job queues and processing tasks asynchronously. This library provides a simple and efficient way to handle tasks in the background, allowing your application to perform time-consuming operations without blocking the main execution flow",
+    "license": "MIT",
+    "keywords": [
+        "queue",
+        "queue",
+        "cronjob",
+        "scheduler"
+    ],
+    "homepage": "https://github.com/IcePHP/mini-queue",
+    "authors": [
+        {
+            "name": "Michael Piper",
+            "email": "IcePHP@pipermichael.com"
+        }
+    ],
     "require": {
         "doctrine/orm": "^2.11.0",
         "doctrine/dbal": "^3.2",
@@ -7,6 +22,8 @@
         "symfony/cache": "^5.4"
     },
     "autoload": {
-        "psr-0": {"IcePHP/MiniQueue": "lib/"}
+        "psr-4": {
+            "IcePHP\\MiniQueue\\": "lib"
+        }
     }
 }
