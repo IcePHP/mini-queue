@@ -1,5 +1,5 @@
 <?php
-namespace MiniQueue;
+namespace IcePHP\MiniQueue;
 // bootstrap.php
 
 require_once __DIR__."/vendor/autoload.php";
