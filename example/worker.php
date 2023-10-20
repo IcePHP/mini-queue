@@ -5,7 +5,6 @@ use IcePHP\MiniQueue\MiniQueue, IcePHP\MiniQueue\ORM\Job;
  * @var MiniQueue
  */
 $miniQueue = require_once __DIR__."/queue.php";
-require __DIR__ . '/vendor/autoload.php';
 
 class EmailSender
 {
